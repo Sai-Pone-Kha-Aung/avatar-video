@@ -9,7 +9,7 @@ import './scene.css'
 
 class ThreeScene extends React.Component {
 
-    componentDidMount() {
+    async componentDidMount() {
         const scene = new THREE.Scene()
 
         const camera = new THREE.PerspectiveCamera(
