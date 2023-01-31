@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import GltfLoad from './gltf-load';
-import Avatar from './test';
-import TestOne from './testone';
 import ThreeScene from './three-scene';
 
 
