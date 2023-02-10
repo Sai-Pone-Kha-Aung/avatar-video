@@ -40,6 +40,7 @@ class ThreeScene extends React.Component {
         video.setAttribute('playsinline', '');
         video.muted = true;
         video.loop = false;
+        video.preload = "auto";
 
         const progressBar: HTMLProgressElement = document.getElementById("progress-bar") as HTMLProgressElement;
         video.ontimeupdate = function () {
